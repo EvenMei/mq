@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: rabbit
+    password: rabbit
+    virtual-host: /ems
+#    listener:
+#      simple:
+#        prefetch: 1
+#        acknowledge-mode: manual
